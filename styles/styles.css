@@ -4,6 +4,14 @@
   box-sizing: border-box; 
 }
 
+a {
+  text-decoration: none; 
+  }
+  
+a:hover {
+  text-decoration: underline; 
+  }
+
 html,
   body {
   height: 100%;
@@ -111,28 +119,22 @@ main {
   padding-top: 2%; 
   padding-left: 4%; 
   }
-
+  
 .featured {
-  background: white;
+  background: blue;
   border: 1px solid black;
   border-radius: 9px;
   width: 100%;
   height: auto;
-  padding: 10px; 
-  line-height: 2em; 
+  padding: 20px 16px 10px 16px; 
+  }
+
+.featured ol {
+  line-height: 1.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em; 
   }
   
-
-.results {
-  background: pink;
-  width: 55%;
-  height: auto;
-  padding: 0 16px 0 16px; 
-  position: absolute; 
-  left: 12.5%; 
-  margin-top: 20px; 
-  }
-
 #wordpress {
   font-size: 16px;
   font-weight: 900;
@@ -144,22 +146,35 @@ main {
   color: #70757A;
 }
 
-#info {
-  background: yellow;
-  width: 40%;
+.help {
+  width: 45%;
   height: auto; 
   position: relative;
-  left: 67%;
-  bottom: -35px; 
+  left: 55%;
+  bottom: -37px; 
   display: flex;
   flex-direction: row;
   justify-content: space-around; 
 }  
 
+/*class was not specific enough to override defaults*/
+#snips-icons {
+  font-size: 16px;
+  color: #9e9e9e;
+  padding-right: 5px;
+  }
+
+.results {
+  background: white; 
+  width: 90%;
+  height: auto;
+  margin: 50px 0 0 15px; 
+  padding: 10px 0 0 0;
+  }
+
 .webresult {
-  background: green;
-  padding-top: 20px; 
-}
+  padding: 10px 0 10px 5px;
+  }
 
 /*Footer*/
 footer {
