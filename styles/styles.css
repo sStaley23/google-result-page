@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box; 
+}
+
+html,
+  body {
+  height: 100%;
+  width: 100%; 
+  font-size: 14px;
+  font-family: 'Roboto', arial, sans-serif; 
+  color: #545454; 
+  }
+
+.containers { 
+  position: relative; 
+  } 
+
+h1,
+  h2 {
+  font-size: 20px;
+  font-weight: 400;
+  }
+  
+h1 {
+  color: #222222;
+  }
+
+h2 {
+  color: #1A0DAB;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #006621
+  }
+  
+h4 {
+  color: #70757A;
+  font-weight: 300;
+}
+
+ol {
+  list-style-position: inside ;
+  }
+  
+/*Top Menu*/
+header {
+  display: flex;
+  background: red; 
+  height: 13.5%;
+  width: 100%;
+  }
+  
+  /*Logo*/
+#logo {
+  background: blue;
+  height: 100%;
+  width: 7%;
+  }
+
+#logo img {
+  height: 5%;
+  width: 5%; 
+  }
+
+  /*Search*/
+#search-container {
+  background: yellow; 
+  height: 40%;
+  width: 34%;
+  top: 15%;
+  }
+
+#search-wrap {
+  
+}
+
+  /*Navigation*/
+#nav-container {
+  background: purple;
+  height: 40%;
+  width: 34%;
+  position: absolute;
+  bottom: 0;
+  left: 7%;
+  }
+  
+  /*User menu*/
+#user-container {
+  background: orange;
+  height: 100%;
+  width: 7%;
+  position: absolute;
+  right: 0;
+  }
+
+/*Main*/
+main {
+  background: blue;
+  height: 100%;
+  width:35%;
+  left: 7%;
+  }
+
+#statistics {
+  background: yellow; 
+  width: 100%; 
+  padding-top: 2%; 
+  padding-left: 4%; 
+  }
+
+.featured {
+  background: white;
+  border: 1px solid black;
+  border-radius: 9px;
+  width: 100%;
+  height: auto;
+  padding: 10px; 
+  line-height: 2em; 
+  }
+  
+
+.results {
+  background: pink;
+  width: 55%;
+  height: auto;
+  padding: 0 16px 0 16px; 
+  position: absolute; 
+  left: 12.5%; 
+  margin-top: 20px; 
+  }
+
+#wordpress {
+  font-size: 16px;
+  font-weight: 900;
+  }
+
+.snips {
+  font-size: 12px;
+  font-weight: 300; 
+  color: #70757A;
+}
+
+#info {
+  background: yellow;
+  width: 40%;
+  height: auto; 
+  position: relative;
+  left: 67%;
+  bottom: -35px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+}  
+
+.webresult {
+  background: green;
+  padding-top: 20px; 
+}
+
+/*Footer*/
+footer {
+  background: red;
+  position: absolute; 
+  bottom: 0;
+  }
+
