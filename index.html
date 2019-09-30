@@ -10,23 +10,49 @@
   </head>
 
   <body>
-<header class="containers">
-  
-  <section id="logo" class="containers">
-    <p>google logo</p>
+<header>
+  <section id="logo-container">
+    <img src="images/googles-21st-birthday.png" alt="Google's 21st Logo" width="90%">
   </section>
-  
-  <section id="search-container" class="containers">
-    <p>Search Bar</p>
+  <section id="menu-container">
+    <div id="search-container">
+      <div class="search-box-wrap">
+        <input type="text" class="search-box-input" name="q" >
+        <button class="search-box-mic"><img src="images/mic.png" height="16px" width="12px"></button>
+        <i class="material-icons search-glass">search</i>
+      </div>
+    </div>
+    <div id="option-container">
+      <div id="options">
+        <div class="option">
+          <button><i class="material-icons">search</i>All</button>
+        </div>
+        <div class="option">
+          <button><i class="material-icons">local_library</i>News</button>
+        </div>
+        <div class="option">
+          <button><i class="material-icons">ondemand_video</i>Videos</button>
+        </div>
+        <div class="option">
+          <button><i class="material-icons">map</i>Maps</button>
+        </div>
+        <div class="option">
+          <button><i class="material-icons">local_offer</i>Shopping</button>
+        </div>
+        <div class="option">
+          <button href="#"><i class="material-icons">more_vert</i>More</button>
+        </div>
+      </div>
+      <div id="settings">
+        <a href="#">Settings</a>
+        <a href="#">Tools</a>
+      </div>
+    </div>
   </section>
-  
-  <section id="nav-container" class="containers">
-    <p>navigation bar</p>
+  <section id="user-container">
+    <button><i class="material-icons" id="app">apps</i></button>
+    <button><i class="material-icons" id="user">account_circle</i></button>
   </section>
-  
-  <div id="user-container" class="containers">
-    <p>user</p>
-  </div>
 </header>
 
 <main class="containers">

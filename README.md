@@ -3,7 +3,13 @@ The Odin Project - HTML/CSS exercise
 
 Attempting to recreate a google result page.  This is the second exercise after completing the css/html lessons in the WebDev 101 section. 
 
-
+Things I have skipped:
+	* Transition speed of the "people also asked" collapsible
+	* The Gooooooooogle navigation at the bottom of the screen
+	* Forgot feedback snip under "people also asked"
+	* Scroll right function for the video section
+	* Expansion of bottom "people also asked" for additional content
+	* Option buttons, hold active status (blue bottom border and rainbow font)
 
 
 Progress notes:
@@ -19,4 +25,8 @@ Also need to change out the text for the second batch of web results. video jibb
 
 2019 Sep 25 - working on "People also asked" collapsible. Left off trying to get it to transition open correctly, then remove blue border when active, and then I need to add arrow. 
 
-2019 Sep 26 - Need to go back and work on the "people also asked" collapsible transition speed, right now with it at the bottom of the page it is difficult to gauge. 
+2019 Sep 26 - Finished the majority of the main section. Now getting header divided up and straight.
+
+2019 Sep 27 - Working on the buttons under the search bar. Remember blue border under active button!!
+
+2019 Sep 30 - Finished header main layout, now need to work on scrolling effect and then on to footer
