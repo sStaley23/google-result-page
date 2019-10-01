@@ -401,10 +401,81 @@ button:focus {
   padding-top: 16px; 
 }
 
-/*Footer*/
-footer {
-  background: red;
-  position: absolute; 
-  bottom: 0;
+#page-nav {
+  width: 60%;
+  height: 20%;
+  margin: 20px 0 0 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
   }
 
+#letters {
+  width: 60%;
+  height: 50%;
+  font-weight: 600;
+  font-size: 30px; 
+  letter-spacing: .01em;
+}
+
+.blue {
+  color: #4285F4;
+  }
+
+.red {
+  color: #DB4437;
+}
+
+.yellow {
+  color: #F4B400;
+}
+
+.green {
+  color: #0F9D58;
+}
+
+#numbers {
+  display: inherit;
+  justify-content: space-between;
+  width: 41%;
+  height: 50%;
+  margin-right: 5%;
+  }
+
+/*Footer*/
+footer {
+  height: 10%;
+  width: 100%;
+  background: #f2f2f2; 
+  border-top: 1px solid #e4e4e4;
+  }
+
+#location, #resources {
+  height: 50%;
+  margin: 0 0 0 7%;
+  padding: .5% 0 0 0;
+}
+
+#location a, #resources a {
+  color: #5f6368;
+  }
+  
+#location {
+  width: 40%;
+  }
+  
+#location b {
+  color: black;
+  }
+
+#location i {
+  font-size: 14px;
+  }
+  
+#resources {
+  width: 23%;
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  }

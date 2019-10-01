@@ -10,6 +10,7 @@ Things I have skipped:
 	* Scroll right function for the video section
 	* Expansion of bottom "people also asked" for additional content
 	* Option buttons, hold active status (blue bottom border and rainbow font)
+	* Sticky nav bar requires knowledge of javascript
 
 
 Progress notes:
@@ -30,3 +31,5 @@ Also need to change out the text for the second batch of web results. video jibb
 2019 Sep 27 - Working on the buttons under the search bar. Remember blue border under active button!!
 
 2019 Sep 30 - Finished header main layout, now need to work on scrolling effect and then on to footer
+
+2019 Oct 01 - Finished with as much as I want to get done :)
